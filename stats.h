@@ -46,6 +46,17 @@
  * @return Does not return anything
  */
 
+  int find_len(char * data);
+/**
+ * @brief  Finds the length of a given data array
+ *
+ * <Add Extended Description Here>
+ *
+ * @param data The data array to be printed
+ *
+ * @return The length as an integer
+ */
+
   int find median(char * data, int len);
 /**
  * @brief  Finds the median value of a given data array
