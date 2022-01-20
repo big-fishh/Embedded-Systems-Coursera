@@ -35,7 +35,7 @@
  * @return Does not return anything
  */
 
-  void print_array(char * data);
+  void print_array(unsigned char * data);
 /**
  * @brief  Prints the contents of a given data array
  *
@@ -46,7 +46,7 @@
  * @return Does not return anything
  */
 
-  int find_len(char * data);
+  unsigned char find_len(char * data);
 /**
  * @brief  Finds the length of a given data array
  *
@@ -54,10 +54,10 @@
  *
  * @param data The data array to be printed
  *
- * @return The length as an integer
+ * @return The length as an unsigned char
  */
 
-  int find median(char * data, int len);
+  unsigned char find_median(char * data, int len);
 /**
  * @brief  Finds the median value of a given data array
  *
@@ -69,7 +69,7 @@
  * @return The median value of the data array as an integer
  */
 
-  int find_mean(char * data, int len);
+  unsigned char find_mean(char * data, int len);
 /**
  * @brief  Finds the mean value of a given data array
  *
@@ -81,7 +81,7 @@
  * @return The mean value of the data array as an integer
  */
 
-  int find_maximum(char * data, int len);
+  unsigned char find_maximum(unsigned char * data, int len);
 /**
  * @brief  Finds the maximum value in a given data array
  *
@@ -90,10 +90,10 @@
  * @param data The data array to be analyzed
  * @param len  The length of the given data array
  *
- * @return The max value as an integer
+ * @return The max value as an unsigned char
  */
 
-  int find_minimum(char * data, int len);
+  unsigned char find_minimum(unsigned char * data, int len);
 /**
  * @brief  Finds the minimum value in a given data array
  *
@@ -105,7 +105,7 @@
  * @return The min value as an integer
  */
 
-  char * sort_array(char * data, int len);
+ unsigned char * sort_array(char * data, int len);
 /**
  * @brief  Sorts a given data array from greatest to least
  *
